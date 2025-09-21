@@ -1,4 +1,0 @@
-docker build -t winbox_launcher winbox_launcher
-
-docker run -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix winbox_launcher
-
